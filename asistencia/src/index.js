@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/home';
 import Login from './components/login';
 import Justifications from './components/justifications';
+import Table from './components/table'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<Home />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/justifications" element={<Justifications />}/>
+        <Route path="/table" element={<Table />}/>
       </Routes>
     </Router>
   </React.StrictMode>
